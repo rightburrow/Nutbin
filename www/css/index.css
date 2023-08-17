@@ -1,0 +1,33 @@
+body {
+    margin: 0;
+    background-color: crimson;
+}
+
+.main {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.main input {
+    height: 64px;
+    width: 256px;
+    text-align: center;
+    border: 0px solid white;
+    border-radius: 35px;
+    margin: 5px;
+}
+
+#loginBtn {
+    height: 64px;
+    width: 256px;
+    text-align: center;
+    border: 0px solid white;
+    border-radius: 35px;
+    margin: 5px;
+    background-color: rgb(0, 120, 120);
+    color: white;
+}
